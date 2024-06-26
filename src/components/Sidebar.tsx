@@ -3,7 +3,7 @@ import React from 'react';
 
 const Sidebar = () => {
   return (
-    <div className="h-full bg-gray-100/40 mx-auto shadow-md p-4 border-l">
+    <div className="h-full w-full bg-gray-100/40 mx-auto shadow-md p-4 border-l">
       <div className="flex justify-between space-x-2 mb-4">
         <button className="bg-red-100 text-red-600 px-4 py-2 rounded-lg flex items-center justify-center w-full border border-[#DC4A2D]">
         <Trash2 className='w-4 mr-2' />

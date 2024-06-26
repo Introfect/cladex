@@ -2,7 +2,7 @@ import React from 'react';
 
 const CompanyDetails = () => {
   return (
-    <div className=" mx-auto bg-white border-t border-gray-200 md:pl-16 py-6">
+    <div className=" mx-auto bg-white border-t border-gray-200 pl-10 md:pl-20 py-6">
       <div className="flex items-center mb-4 ">
         <img src="/image4.png" alt="Atlassian Logo" className="w-8 h-8 mr-2" />
         <h2 className="text-xl font-semibold">Atlassian</h2>

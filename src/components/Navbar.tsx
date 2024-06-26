@@ -15,13 +15,13 @@ const Navbar = () => {
   const pathName= usePathname()
   return (
     <header className="w-full sticky right-0 left-0 bg-white top-0 py-5 px-4 backdrop-blur-lg z-[100] flex items-center border-b-[1px] justify-between">
-      <aside className="flex items-center gap-[2px] bg-red-300">
-        <p className="text-3xl font-bold">LOGO</p>
+      <aside className="flex items-center gap-[2px] bg-gray-300 px-4 py-2">
+        <p className="text-xl font-bold text-red-500">LOGO</p>
       </aside>
       <nav
        
       className=" hidden md:block border p-2 rounded-full">
-        <ul className="flex items-center space-x-20 list-none">
+        <ul className="flex items-center md:space-x-0 lg:space-x-20 list-none">
           <li>
             <Link className={clsx("px-4 py-4 rounded-full font-semibold text-gray-500 flex",
               {

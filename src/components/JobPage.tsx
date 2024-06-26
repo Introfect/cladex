@@ -12,31 +12,31 @@ import CompanyDetails from './CompanyDetails';
 const JobPage=()=> {
   return (
     <div className='w-full'>
-    <div className=" h-16 w-full md:pl-16 border-b">
+    <div className=" h-16 w-full pl-10 md:pl-20 border-b">
        <ul className="flex h-full  items-center gap-6 list-none">
-          <li>
-            <Link className='  rounded-full font-bold text-orange-600' href="#">Job Preview</Link>
+          <li className='border-b-2 border-red-500 '>
+            <Link className=' border-red-500 text-sm md:text-md font-bold text-orange-600' href="#">Job Preview</Link>
           </li>
           <li>
-            <Link className='  rounded-full  text-slate-500' href="#">Job Preview</Link>
+            <Link className='  rounded-full text-sm md:text-md text-slate-500' href="#">Applicants</Link>
           </li>
           <li>
-            <Link className='  rounded-full  text-slate-500' href="#">Job Preview</Link>
+            <Link className='  rounded-full text-sm md:text-md text-slate-500' href="#">Match</Link>
           </li>
           <li>
-            <Link className=' rounded-full  text-slate-500' href="#">Job Preview</Link>
+            <Link className=' rounded-full text-sm md:text-md text-slate-500' href="#">Messages</Link>
           </li>
       
     </ul>
 
   </div>
-  <div className="flex flex-col md:flex-row">
+  <div className="flex flex-col lg:flex-row">
       <div className="md:w-4/5 md:pr-8">
         <Header />
         <JobDescription />
         <CompanyDetails />
       </div>
-      <div className="md:w-1/5">
+      <div className="lg:w-1/5">
         <Sidebar />
       </div>
     </div>
