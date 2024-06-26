@@ -9,7 +9,7 @@ type Props = {}
 function ChatSidebar({}: Props) {
   return (
     
-    <div className="hidden md:block border-r border-muted/20 bg-white">
+    <div className="hidden md:block border-r bg-white px-1">
       <div className="sticky top-0 flex items-center justify-between px-4 py-3 border-b border-muted/20">
         <div className="flex items-center gap-2">
           <Avatar className="w-8 h-8 border">
@@ -22,7 +22,7 @@ function ChatSidebar({}: Props) {
           <SettingsIcon className="w-5 h-5" />
         </Button>
       </div>
-      <div className="flex-1 overflow-auto">
+      <div className="flex-1 overflow-x-hidden">
         <div className="grid gap-2 p-4">
           <Link
             href="#"

@@ -43,7 +43,7 @@ function ChatScreen() {
           </div>
         </div>
         <div className="flex items-start gap-3 justify-end">
-          <div className="rounded-md bg-primary text-primary-foreground p-3 text-sm">
+          <div className="rounded-md bg-[#DC4A2D] text-primary-foreground p-3 text-sm">
             <p>I amm doing great, thanks for asking!</p>
             <div className="text-xs text-primary-foreground/80">2:35 PM</div>
           </div>
@@ -63,7 +63,7 @@ function ChatScreen() {
           </div>
         </div>
         <div className="flex items-start gap-3 justify-end">
-          <div className="rounded-md bg-primary text-primary-foreground p-3 text-sm">
+          <div className="rounded-md bg-[#DC4A2D] text-primary-foreground p-3 text-sm">
             <p>Yes, I really like it! Great work .</p>
             <div className="text-xs text-primary-foreground/80">11:25 AM</div>
           </div>

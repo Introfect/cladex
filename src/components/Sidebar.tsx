@@ -4,12 +4,12 @@ import React from 'react';
 const Sidebar = () => {
   return (
     <div className="h-full w-full bg-gray-100/40 mx-auto shadow-md p-4 border-l">
-      <div className="flex justify-between space-x-2 mb-4">
+      <div className="flex flex-col items-center justify-center xl:flex-row lg:justify-between  m-2">
         <button className="bg-red-100 text-red-600 px-4 py-2 rounded-lg flex items-center justify-center w-full border border-[#DC4A2D]">
         <Trash2 className='w-4 mr-2' />
           Delete job
         </button>
-        <button className="bg-[#DC4A2D] text-white px-4 py-2 rounded-lg flex items-center w-full justify-center border-2 border-red-200">
+        <button className="bg-[#DC4A2D] m-2 text-white px-4 py-2 rounded-lg flex items-center w-full justify-center border-2 border-red-200">
         <Pencil className='w-4 mr-2'/>
           Edit job
         </button>

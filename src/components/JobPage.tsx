@@ -36,7 +36,7 @@ const JobPage=()=> {
         <JobDescription />
         <CompanyDetails />
       </div>
-      <div className="lg:w-1/5">
+      <div className="lg:w-1/5 overflow-x-hidden">
         <Sidebar />
       </div>
     </div>
