@@ -1,12 +1,17 @@
 'use client'
 import Link from 'next/link'
-import React from 'react'
-import { Bell, Briefcase, ChevronDown, HandCoins, MenuIcon, MessageSquareDot } from 'lucide-react'
+import React, { useState } from 'react'
+import { Bell, Briefcase, ChevronDown, HandCoins, MenuIcon, MessageSquareDot, X } from 'lucide-react'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import clsx from 'clsx'
 import {  usePathname } from 'next/navigation'
 
-const Navbar = async () => {
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen)
+  }
   const pathName= usePathname()
   return (
     <header className="w-full sticky right-0 left-0 bg-white top-0 py-5 px-4 backdrop-blur-lg z-[100] flex items-center border-b-[1px] justify-between">
@@ -59,8 +64,36 @@ const Navbar = async () => {
 </Avatar>
 <ChevronDown />
         </Link>
-        <MenuIcon className="md:hidden" />
+        <button onClick={toggleNavbar} className="md:hidden">
+          {isOpen ?null: <MenuIcon />}
+        </button>
       </aside>
+      {isOpen && (
+        <div className="absolute h-screen w-full inset-0 bg-black bg-opacity-75 z-[200] flex flex-col items-center justify-center md:hidden">
+          <button onClick={toggleNavbar} className="absolute top-5 right-5 text-white">
+            <X />
+          </button>
+          <nav className="text-center">
+            <ul className=" text-white flex flex-col items-start space-y-10">
+              <li>
+                <Link onClick={toggleNavbar} className="text-2xl font-semibold" href="/">
+                  Jobs
+                </Link>
+              </li>
+              <li>
+                <Link onClick={toggleNavbar} className="text-2xl font-semibold" href="/messages">
+                  Messages
+                </Link>
+              </li>
+              <li>
+                <Link onClick={toggleNavbar} className="text-2xl font-semibold" href="/payments">
+                  Payments
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      )}
     </header>
   )
 }

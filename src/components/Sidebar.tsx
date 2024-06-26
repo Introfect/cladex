@@ -9,7 +9,7 @@ const Sidebar = () => {
         <Trash2 className='w-4 mr-2' />
           Delete job
         </button>
-        <button className="bg-red-500 text-white px-4 py-2 rounded-lg flex items-center w-full justify-center border-2 border-red-200">
+        <button className="bg-[#DC4A2D] text-white px-4 py-2 rounded-lg flex items-center w-full justify-center border-2 border-red-200">
         <Pencil className='w-4 mr-2'/>
           Edit job
         </button>
