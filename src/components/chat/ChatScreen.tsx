@@ -58,13 +58,13 @@ function ChatScreen() {
             <AvatarFallback>AC</AvatarFallback>
           </Avatar>
           <div className="rounded-md bg-muted/10 p-3 text-sm">
-            <p>Did you see the new design?</p>
+            <p>Did you see the new design ?</p>
             <div className="text-xs text-muted-foreground">11:24 AM</div>
           </div>
         </div>
         <div className="flex items-start gap-3 justify-end">
           <div className="rounded-md bg-primary text-primary-foreground p-3 text-sm">
-            <p>Yes, I really like it! Great work.</p>
+            <p>Yes, I really like it! Great work .</p>
             <div className="text-xs text-primary-foreground/80">11:25 AM</div>
           </div>
           <Avatar className="w-8 h-8 border">

@@ -35,7 +35,7 @@ function ChatSidebar({}: Props) {
             </Avatar>
             <div className="flex-1 truncate">
               <div className="font-medium">John Doe</div>
-              <div className="text-sm text-muted-foreground">Hey, how's it going?</div>
+              <div className="text-sm text-muted-foreground">Hey, how is it going?</div>
             </div>
             <div className="text-xs text-muted-foreground">2:34 PM</div>
           </Link>
@@ -65,7 +65,7 @@ function ChatSidebar({}: Props) {
             </Avatar>
             <div className="flex-1 truncate">
               <div className="font-medium">Alex Johnson</div>
-              <div className="text-sm text-muted-foreground">Let's discuss the project timeline.</div>
+              <div className="text-sm text-muted-foreground">Let uss discuss the project timeline.</div>
             </div>
             <div className="text-xs text-muted-foreground">Yesterday</div>
           </Link>

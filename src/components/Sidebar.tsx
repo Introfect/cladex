@@ -14,29 +14,29 @@ const Sidebar = () => {
           Edit job
         </button>
       </div>
-      <div className="space-y-4">
-        <div className="flex justify-between">
+      <div className="space-y-4 mx-2">
+        <div className="flex justify-between py-4 border-b">
           <div className="flex items-center">
           <Users className='w-5 mr-2 text-gray-600'/>
             <span className="font-light text-gray-600">Applicants</span>
           </div>
           <span className="font-semibold">400</span>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between py-4 border-b">
           <div className="flex items-center">
           <UserRoundCheck className='text-gray-600 w-5 mr-2' />
             <span className='text-gray-600'>Matches</span>
           </div>
           <span className="font-semibold">100</span>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between py-4 border-b">
           <div className="flex items-center">
           <MessageSquare className='w-5 mr-2 text-gray-600' />
             <span className='text-gray-600'>Messages</span>
           </div>
           <span className="font-semibold">147</span>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between py-4">
           <div className="flex items-center">
           <Eye className='w-5 mr-2 text-gray-600' />
             <span className='text-gray-600'>Views</span>
