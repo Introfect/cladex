@@ -38,7 +38,7 @@ const Navbar = () => {
                 pathName=="/messages"
 
               }
-            )} href="/messages"><MessageSquareDot className='mr-3' /> Messages</Link>
+            )} href="/messages"><MessageSquareDot className='mr-3' /> Messages new version</Link>
           </li>
           <li>
           <Link className={clsx("px-4 py-4 rounded-full font-semibold text-gray-500 flex",
