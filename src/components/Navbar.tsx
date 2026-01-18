@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <header className="w-full sticky right-0 left-0 bg-white top-0 py-5 px-4 backdrop-blur-lg z-[100] flex items-center border-b-[1px] justify-between">
       <aside className="flex items-center gap-[2px] bg-gray-300 px-4 py-2">
-        <p className="text-xl font-bold text-red-500">LOGO</p>
+        <p className="text-xl font-bold text-red-500">Cladx</p>
       </aside>
       <nav
        
@@ -38,7 +38,7 @@ const Navbar = () => {
                 pathName=="/messages"
 
               }
-            )} href="/messages"><MessageSquareDot className='mr-3' /> Messages</Link>
+            )} href="/messages"><MessageSquareDot className='mr-3' /> Messages new version testes</Link>
           </li>
           <li>
           <Link className={clsx("px-4 py-4 rounded-full font-semibold text-gray-500 flex",
